@@ -91,7 +91,7 @@ int Gibbs_Sampling(char *Fichier_Fasta)
 	    i++;
 	}
 
-/* A REPETER Jusqu'a nbr_iterations!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+/* A REPETER Jusqu'a nbr_iterations */
 	int compteur = 0;
 	int shift = 0; /*variable qui va compter le nombre de tour et des que shift == nbr_shifts => phases de decalage*/
 	int taille_mat = 0;
